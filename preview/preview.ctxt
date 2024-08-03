@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+#define PI 3.14159
+#define MAX(a, b) ((a) > (b) ? (a) : (b))
+
+typedef struct {
+    int x;
+    int y;
+} Point;
+
+int square(int n) {
+    return n * n;
+}
+
+int main(void) {
+    const float radius = 5.0;
+    Point p = {3, 4};
+
+    // Calculate area of a circle (white)
+    float area = PI * square(radius);
+
+    // Output result
+    printf("The area of the circle is: %.2f\n", area);
+
+    // Simple condition to test macros
+    if (MAX(p.x, p.y) > 4) {
+        printf("The max value is greater than 4.\n");
+    }
+
+    return 0;
+}
+

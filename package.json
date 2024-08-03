@@ -1,0 +1,37 @@
+{
+  "name": "minimal--theme",
+  "displayName": "minimal theme vscode",
+  "description": "minimal theme for vscode",
+  "publisher": "eztaah",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eztaah/minimal-theme-vscode"
+  },
+  "keywords": [
+    "grey",
+    "black",
+    "minimal",
+    "minimalist",
+    "simple"
+  ],
+  "icon": "icon.jpg",
+  "author": {
+    "name": "eztaah"
+  },
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.57.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "minimal",
+        "uiTheme": "vs-dark",
+        "path": "./themes/minimal.json"
+      }
+    ]
+  }
+}

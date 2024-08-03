@@ -1,0 +1,5 @@
+# publish: 
+# https://marketplace.visualstudio.com/manage/publishers/eztaah
+
+# build: 
+vsce package --no-yarn
