@@ -1,30 +1,26 @@
-# minimal
-
-minimal theme for vscode
-
-<br>
+# preview
 
 ![image](preview/preview.png)
 
 <br>
 
-### Color scheme
+# color scheme
 
-#### IDE colors
+### syntax highlighting
 
-| Color   | Hex Code  | element                                   |
-|---------|-----------|-------------------------------------------|
-| dark grey | `#222222` | editor background                        |
-| medium grey | `#2c2c2d` | sidebar background                     |
-| light grey | `#303032` | other elements background               |
+| Color                                                    | Programming language           | Markdown | Json   |
+|----------------------------------------------------------|--------------------------------|----------|--------|
+| [red](https://singlecolorimage.com/get/f76a6a/500x500)   | keywords                       | Titles   |        |
+| [green](https://singlecolorimage.com/get/98c379/500x500) | types                          |          |        |
+| [blue](https://singlecolorimage.com/get/61afef/500x500)  | function declarations/calls    |          |        |
+| [orange](https://singlecolorimage.com/get/bfbb71/500x500)| constants, strings, macros     |          | values |
+| [grey](https://singlecolorimage.com/get/85857a/500x500)  | comments                       |          |        |
 
-#### Syntax highlighting
 
-| Color   | Hex Code  | Usage                                     |
-|---------|-----------|-------------------------------------------|
-| red     | `#f76a6a` | keywords, markdown titles                 |
-| green   | `#98c379` | types                                     |
-| blue    | `#61afef` | function declarations and calls           |
-| orange  | `#bfbb71` | constants, strings, macros, JSON values   |
-| grey    | `#85857a` | comments                                  |
-| white   | `#cccccc` | all other elements                        |
+### IDE colors
+| Color                                                         | Element                        |
+|---------------------------------------------------------------|--------------------------------|
+| [dark grey](https://singlecolorimage.com/get/222222/500x500)  | editor background              |
+| [medium grey](https://singlecolorimage.com/get/2c2c2d/500x500)| sidebar background             |
+| [light grey](https://singlecolorimage.com/get/303032/500x500) | other elements background      |
+
